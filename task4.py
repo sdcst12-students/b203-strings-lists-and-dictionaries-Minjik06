@@ -7,5 +7,7 @@ x = { 1 : 1, 2 : 4, 3 : 9, 4 : 16, 5 : 25, 6 : 36, 7 : 49, 8 : 64, 9 : 81, 10 : 
 """
 a=int(input("enter an integer value of 'n' : "))
 x={}
-for i in range(a):
-    if 
+for i in range(a+1):
+    if i!=0:
+        x[i]=i*i
+print(f"x = {x}")
